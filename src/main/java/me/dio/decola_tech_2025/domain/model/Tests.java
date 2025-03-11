@@ -9,10 +9,9 @@ public class Tests {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long Id;
 
-    @Column(precision = 2)
+
     private Integer NEOFFIR;
 
-    @Column(precision = 2)
     private Integer SRS2;
 
     public Integer getNEOFFIR() {
